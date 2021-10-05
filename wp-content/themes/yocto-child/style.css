@@ -16,6 +16,9 @@
 	max-height: 80px;
 	width: auto;
 }
+
+@media screen and (min-width: 70rem) {.site-title {white-space: nowrap;}}
+
 .site-footer {
 	background-color: #495BAB;
     color: #e0e0e0;
