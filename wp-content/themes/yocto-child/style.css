@@ -12,6 +12,13 @@
  Text Domain:  yoctochild
 */
 
+/*
+Farbe 1: #458433 dunkelgrün
+Farbe 2: #4AF602 hellgrün
+Farbe 3: #2C34EF blau
+Farbe 4: #FFF300 gelb
+Farbe 5: #FC0013 rot
+*/
 .custom-logo {
 	max-height: 80px;
 	width: auto;
@@ -19,10 +26,10 @@
 
 @media screen and (min-width: 70rem) {.site-title {white-space: nowrap;}}
 
-.site-footer {
-	background-color: #495BAB;
-    color: #e0e0e0;
+.footer-widgets {
+	background-color: #2C34EF;
 }
+.site-header, .site-info {background-color: #458433;}
 .footer-widgets, .site-info {padding: 0;}
 .footer-widgets .widget {margin-bottom: 0;}
 #menu-footer {

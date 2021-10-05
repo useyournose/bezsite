@@ -4,7 +4,7 @@ function nice_redirect ()  {
     wp_enqueue_script( 'script', get_stylesheet_directory_uri() . '/assets/js/redirectonframe.js',array(), 1.0, false);
 }
 
-add_action( 'wp_enqueue_scripts','nice_redirect');
+//add_action( 'wp_enqueue_scripts','nice_redirect');
 
 function my_theme_enqueue_styles() {
     wp_enqueue_style( 'yocto-child-style', get_stylesheet_uri(),
