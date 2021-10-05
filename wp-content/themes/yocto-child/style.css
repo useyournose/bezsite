@@ -1,0 +1,71 @@
+/*
+ Theme Name:   Yocto Child
+ Theme URI:    http://example.com/whateveryoulookfor/
+ Description:  Yocto Child Theme
+ Author:       Oliver Berger
+ Author URI:   http://b3r63r.de
+ Template:     yocto
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  yoctochild
+*/
+
+.custom-logo {
+	max-height: 80px;
+	width: auto;
+}
+.site-footer {
+	background-color: #495BAB;
+    color: #e0e0e0;
+}
+.footer-widgets, .site-info {padding: 0;}
+.footer-widgets .widget {margin-bottom: 0;}
+#menu-footer {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	list-style: none;
+	margin-bottom: 0;
+}
+
+@media screen and (min-width: 70rem) {
+	#menu-footer {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: row;
+		-ms-flex-direction: row;
+		flex-direction: row;
+		justify-content: center;
+	}
+}
+
+/*#menu-footer .menu-item{border-top:1px solid #333;border-bottom:1px solid #dad9d9}
+@media screen and (min-width:70rem){
+	#menu-footer .menu-item{border-bottom:0}
+}*/
+#menu-footer .menu-item:last-child{border-bottom:0}
+#menu-footer .menu-item a{display:block;padding:5px 20px 5px 0;border-bottom:0;color:#fff}
+#menu-footer .menu-item.current-menu-item>a{color:#ffcd00}
+
+@media screen and (min-width:70rem){
+    #menu-footer .icon{display:inline-block}
+    #menu-footer .icon-arrow-down{margin-left:2px}
+    #menu-footer .menu-item{position:relative;display:inline-block;height:100%;padding:0;border-top:0;margin:0;vertical-align:middle;zoom:1}
+    #menu-footer .menu-item a{display:inline-block;text-decoration:none}
+    #menu-footer .menu-item.focus .sub-menu,#menu-footer .menu-item:hover .sub-menu{top:100%;right:0;left:auto}
+    #menu-footer .menu-item a,#menu-footer .menu-item.focus a{padding:15px;color:#fff}
+	#menu-footer .menu-item a:focus,#menu-footer .menu-item a:hover,#menu-footer .menu-item.focus a:focus,#menu-footer .menu-item.focus a:hover{color:#ffcd00}
+	
+}
