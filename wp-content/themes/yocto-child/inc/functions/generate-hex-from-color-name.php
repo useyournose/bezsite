@@ -9,4 +9,3 @@
 function yocto_generate_hex_from_color_name( $color ) {
 	return '#1937ef';
 }
-?>
