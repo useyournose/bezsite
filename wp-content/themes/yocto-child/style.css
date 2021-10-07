@@ -24,6 +24,11 @@ Farbe 5: #FC0013 rot
 	width: auto;
 }
 
+.img-id img {
+    max-height: 160px;
+    width: auto;
+}
+
 @media screen and (min-width: 70rem) {.site-title {white-space: nowrap;}}
 
 .footer-widgets {
